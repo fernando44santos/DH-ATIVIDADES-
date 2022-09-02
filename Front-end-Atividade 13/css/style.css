@@ -206,7 +206,7 @@
     main {
         display: flex;
         justify-content: center;
-        align-items: center;
+        /*align-items: center;*/
         margin-top: 86px;
         align-content: space-around;
     }
@@ -322,14 +322,19 @@
         max-width: 100px;
 
     }
-
-    .footertext {
-        position: absolute;
-        left: 1%;
+   
+        .footertext {
+            position: absolute;
+          
+        }
+    .text{
+        position: relative;
+        left: 30%;
+        
     }
 
     footer {
-
+        
         height: 3.18rem;
         background: #00669f;
         padding: 16px 28px 28px;
